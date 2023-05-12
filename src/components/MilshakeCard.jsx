@@ -8,6 +8,7 @@ export const MilshakeCard = (props) => {
       <h3>{milshake.name}</h3>
       <p>{milshake.description}</p>
       <span>{milshake.price}</span>
+      <button>Add</button>
     </div>
   );
 };
